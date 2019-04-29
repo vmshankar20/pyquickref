@@ -1,4 +1,4 @@
-# coding=utf-8
+
 # String Methods
 # Strings and tuples are immutable sequence types
 # https://docs.python.org/2.7/library/stdtypes.html#string-methods
@@ -206,121 +206,121 @@ value = xrange(25)
 print value
 
 
-""" 
-Result:
-
-C:\Python27\python.exe C:/Work/Python/quickref/stringmethods.py
-Print
-          print          
-**********print**********
-1
-1
-0
-True
-False
-01      012     0123    01234
-01 012 0123 01234
-01  012 0123  01234
-01 012   0123  01234
-01  012 0123    01234
-01   012  0123 01234
-True
-False
-Hello Programmer Boo!
-Hello Programmer Boo!
-Hello New Programmer Boo!
-Hello Buddy Programmer Boo!
-Hello 'Buddy' Programmer 25.5
-Coordinates: 37.24N, -115.81W
-left aligned                  
-                 right aligned
-           centered           
-***********centered***********
-int: 42;  hex: 2a;  oct: 52;  bin: 101010
-int: 42;  hex: 0x2a;  oct: 0o52;  bin: 0b101010
-1,234,567,890
-Correct answers: 88.64%
-Correct answers: 88.6364%
-Correct answers: 88.6363636364%
-Correct answers: 88.636363636363640239324013236910%
-2
-True
-True
-False
-True
-True
-False
-True
-False
-N-e-w-W-o-r-l-d
-[0, 1, 2, 3, 4]
-[-0-,- -1-,- -2-,- -3-,- -4-]
-print*********************************************
-*********************************************print
-nt
-nt
-spacious   
-   spacious
-example.com
-www.example
-print
-PRINT
-('print', '', '')
-('1', ',', '2,3')
-('1,2', ',', '3')
-hint
-Let it be, don't let it be, don't let it be, let it be
-9
-27
-27
-27
-27
--1
-18
-['Let', 'it', 'be,', 'let', 'it', 'be,', 'let', 'it', 'be,', 'let', 'it', 'be']
-['Let it be', ' let it be', ' let it be', ' let it be']
-['Let it be', ' let it be', ' let it be, let it be']
-['Let it be, let it be', ' let it be', ' let it be']
-['ab c', '', 'de fg', 'kl']
-['ab c\n', '\n', 'de fg\r', 'kl\r\n']
-['Two lines', '']
-True
-False
-lET IT BE, LET IT BE, LET IT BE, LET IT BE
-let it be, let it be, let it be, let it be
-Print
-Let It Be, Let It Be, Let It Be, Let It Be
-They'Re Bill'S Friends From The Uk
-('Original string:', 'abcdef')
- 	
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ghidefghijklmnopqrstuvwxyz{|}~��������������������������������������������������������������������������������������������������������������������������������
- 	
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefabcjklmnopqrstuvwxyz{|}~��������������������������������������������������������������������������������������������������������������������������������
-rd ths shrt txt
-rd tbs sbrt txt
-print
-0000000000000000000000000print
-Python has 002 quote types.
-Python has   2 quote types.
-Python has 2   quote types.
-Python has   2 quote types.
-Python has  +2 quote types.
-Python has   0xa quote types.
-Python has   0XA quote types.
-Python has 1.000000e+01 quote types.
-Python has 1.000000E+01 quote types.
-Python has 10.000000 quote types.
-Python has 10.000000 quote types.
-Python has 10.000000 quote types.
-Python has 010 quote types.
-Python has 010 quote types.
-Python has   $ quote types.
-Python has 010 quote types.
-Python has 012 quote types.
-Python has  10 quote types.
-Python has  10 quote types.
-xrange(25)
-
-Process finished with exit code 0
-
-"""
+# """
+# Result:
+#
+# C:\Python27\python.exe C:/Work/Python/quickref/stringmethods.py
+# Print
+#           print
+# **********print**********
+# 1
+# 1
+# 0
+# True
+# False
+# 01      012     0123    01234
+# 01 012 0123 01234
+# 01  012 0123  01234
+# 01 012   0123  01234
+# 01  012 0123    01234
+# 01   012  0123 01234
+# True
+# False
+# Hello Programmer Boo!
+# Hello Programmer Boo!
+# Hello New Programmer Boo!
+# Hello Buddy Programmer Boo!
+# Hello 'Buddy' Programmer 25.5
+# Coordinates: 37.24N, -115.81W
+# left aligned
+#                  right aligned
+#            centered
+# ***********centered***********
+# int: 42;  hex: 2a;  oct: 52;  bin: 101010
+# int: 42;  hex: 0x2a;  oct: 0o52;  bin: 0b101010
+# 1,234,567,890
+# Correct answers: 88.64%
+# Correct answers: 88.6364%
+# Correct answers: 88.6363636364%
+# Correct answers: 88.636363636363640239324013236910%
+# 2
+# True
+# True
+# False
+# True
+# True
+# False
+# True
+# False
+# N-e-w-W-o-r-l-d
+# [0, 1, 2, 3, 4]
+# [-0-,- -1-,- -2-,- -3-,- -4-]
+# print*********************************************
+# *********************************************print
+# nt
+# nt
+# spacious
+#    spacious
+# example.com
+# www.example
+# print
+# PRINT
+# ('print', '', '')
+# ('1', ',', '2,3')
+# ('1,2', ',', '3')
+# hint
+# Let it be, don't let it be, don't let it be, let it be
+# 9
+# 27
+# 27
+# 27
+# 27
+# -1
+# 18
+# ['Let', 'it', 'be,', 'let', 'it', 'be,', 'let', 'it', 'be,', 'let', 'it', 'be']
+# ['Let it be', ' let it be', ' let it be', ' let it be']
+# ['Let it be', ' let it be', ' let it be, let it be']
+# ['Let it be, let it be', ' let it be', ' let it be']
+# ['ab c', '', 'de fg', 'kl']
+# ['ab c\n', '\n', 'de fg\r', 'kl\r\n']
+# ['Two lines', '']
+# True
+# False
+# lET IT BE, LET IT BE, LET IT BE, LET IT BE
+# let it be, let it be, let it be, let it be
+# Print
+# Let It Be, Let It Be, Let It Be, Let It Be
+# They'Re Bill'S Friends From The Uk
+# ('Original string:', 'abcdef')
+#  
+#  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ghidefghijklmnopqrstuvwxyz{|}~��������������������������������������������������������������������������������������������������������������������������������
+#  
+#  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefabcjklmnopqrstuvwxyz{|}~��������������������������������������������������������������������������������������������������������������������������������
+# rd ths shrt txt
+# rd tbs sbrt txt
+# print
+# 0000000000000000000000000print
+# Python has 002 quote types.
+# Python has   2 quote types.
+# Python has 2   quote types.
+# Python has   2 quote types.
+# Python has  +2 quote types.
+# Python has   0xa quote types.
+# Python has   0XA quote types.
+# Python has 1.000000e+01 quote types.
+# Python has 1.000000E+01 quote types.
+# Python has 10.000000 quote types.
+# Python has 10.000000 quote types.
+# Python has 10.000000 quote types.
+# Python has 010 quote types.
+# Python has 010 quote types.
+# Python has   $ quote types.
+# Python has 010 quote types.
+# Python has 012 quote types.
+# Python has  10 quote types.
+# Python has  10 quote types.
+# xrange(25)
+#
+# Process finished with exit code 0
+#
+# """
